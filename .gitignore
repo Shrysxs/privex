@@ -1,0 +1,22 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.vercel/
+frontend/.swc/
+frontend/.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.env*
+
+# Anchor / Rust
+contracts/target/
+contracts/.anchor/
+contracts/keys/
+contracts/id.json
+
+# OS / misc
+.DS_Store
+Thumbs.db

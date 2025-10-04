@@ -1,0 +1,11 @@
+[workspace]
+members = ["programs/privex"]
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+# placeholder; fill with your test runner or scripts later
+build = "anchor build"
+deploy = "anchor deploy"

@@ -1,0 +1,17 @@
+[package]
+name = "privex"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "privex"
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+no-idl = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
